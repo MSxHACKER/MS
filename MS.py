@@ -53,7 +53,7 @@ except ModuleNotFoundError:
 
     os.system('pip install requests bs4 futures==2 > /dev/null')
 
-    os.system('python ARNOLD.py')
+    os.system('python MS.py')
 
 #####____Auto-Create-Setup____#####
 
@@ -98,7 +98,7 @@ class OLD_CLONER:
     
     def banner(self):
         os.system("clear")  
-        print("\033[1;32m   ███╗   ███╗███████╗")
+        print("\033[1;32m   ██╗   ███╗███████╗")
         print("\033[1;32m  ████╗ ████║██╔════╝")
         print("\033[1;32m  ██╔████╔██║███████╗")
         print("\033[1;32m  ██║╚██╔╝██║╚════██║")
@@ -161,7 +161,7 @@ class OLD_CLONER:
             self.banner()
             print(" \033[1;32m [\033[1;37m√\033[1;32m] \033[1;37m TOTAL IDS \033[1;32m - "+str(len(self.gen)))
             print(" \033[1;32m [\033[1;37m√\033[1;32m]  \033[1;37mUID SERIES \033[1;32m - "+series)
-            print(" \033[1;32m [\033[1;37m√\033[1;32m]  \033[1;33mIF NO RESULT USE FLIGHT MODE")
+            print(" \033[1;32m [\033[1;37m√\033[1;32m]  \033[1;33mIF NO RESULT USE FLIGHT MODE ✈️")
             print("------------------------------------------------")
             for love in self.gen:
                 ids = self.uX + love
